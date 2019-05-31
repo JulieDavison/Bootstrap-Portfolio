@@ -8,15 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 
 <body>
-    <div class="container" style="background-image: url(images/lilypads/lilypads.png)">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff; border-bottom: 2px solid #cccccc; color: #999999;
-        line-height: 50px;">
+    <div id="nav-container" class="container">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <span class="button-style"
-                style="background:#4aaaa5; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; font-size: 30px; width: 250px;">
+            <span id="name-container" class="button-style">
                 <a class="navbar-brand" href="index.html"> Julie Davison</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -42,15 +41,15 @@
             </div>
         </div>
     </nav>
+</div>
+    <div id="main-container" class="container">
 
     <!--Jumbotron-->
     <div class="row">
         <div class="col">
         </div>
         <div class="col-8">
-            <div class="jumbotron jumbotron-fluid"
-                style=" margin: 60px; font-family: Georgia, 'Times New Roman', Times, serif; color: #4aaaa5;">
-
+            <div id="jumbo" class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <h1 class="display-8">About Me</h1>
 
@@ -78,14 +77,14 @@
         </div>
     </div>  
 
-</body>
+</div>
+<div id="footer-container" class="container">
 <footer>
-    <div class="container">
         <div class="navbar navbar-expand-sm bg-dark navbar-dark sticky-bottom">
             <a class="navbar-brand" href="#">JD Logo</a>
         </div>
+    </footer>
     </div>
-</footer>
-</div>
+</body>
 
 </html>
