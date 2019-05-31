@@ -32,3 +32,12 @@
     padding-right:0;
     padding-left:0;
 }
+
+#footer-container {
+    background: #888888;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px 0;
+    font-size: 12px;
+    text-align: center;
+}
