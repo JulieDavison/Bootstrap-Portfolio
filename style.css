@@ -21,11 +21,9 @@ body {
     width: 230px; 
     height: 66px; 
 }
-
 #name-container > a {
     color: #ffffff;
 }
-
 #jumbo {
     margin: 60px; 
     font-family: Georgia, 'Times New Roman', Times, serif; 
